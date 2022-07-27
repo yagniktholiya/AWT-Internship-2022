@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        .M{
+            border: 2px solid black;
+            width: 50%;
+            background-color: yellow;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            margin-bottom: auto; 
+         }
+         input{
+            border: 1px solid;
+            width: 42%;
+            border-radius: 5px;
+            margin: 5px;
+            font-family: sans-serif;
+            padding: 5px;
+         }
+         button{
+            padding: 3px;
+            border: none;
+            color: white;
+            min-width: 3px;
+            min-height: 3px;
+            border-radius: 5px;
+            font-size: 15px;
+            cursor: pointer;
+            background-color: red;
+         }
+
+    </style>
+</head>
+<body>
+       <form action="">
+        <div class="M">
+        <span>First Name:</span>&nbsp;
+        <input type="text" autofocus placeholder="Enter your first name here.."   >
+        <br>
+        <span>Last Name:</span>&nbsp;
+        <input type="text" autofocus placeholder="Enter your first name here.."   >
+        <br>
+        <span>Email id:</span>&nbsp;
+        <input type="email" autofocus placeholder="Enter your first name here.."   >
+        <br>
+        <input type="date"><br>
+        <input type="color"><br>
+        <input type="time"><br>
+        <input type="range"><br>
+        <span>What is your class teacher name?</span>
+        <br>
+        <input type="checkbox" name="Name1" id="" style="width: auto" >Name1 <br>
+        <input type="checkbox" name="Name2" id="" style="width: auto" >Name2 <br>
+        <input type="checkbox" name="Name3" id="" style="width: auto">Name3 <br>
+        <input type="checkbox" name="Name4" id="" style="width: auto">Name4 <br>
+        <fieldset>
+            <input type="radio" id="" name="Class1" style="width: auto"><label for="G1">IT</label><br>
+            <input type="radio" id="" name="Class2" style="width: auto"><span>CE</span><br>
+        </fieldset>
+
+        <button>Submit</button>
+        
+        <fieldset><br>
+            <legend>Registered only</legend>
+            <span>Username:</span>
+            <input type="text" placeholder="Enter User name" ><br>
+            <span>Password:</span>
+            <input type="password" placeholder="Enter Password" ><br>
+            <button>Login</button>
+
+        </fieldset>
+        </div>
+        </form>
+    
+</body>
+</html>
